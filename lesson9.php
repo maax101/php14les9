@@ -2,9 +2,9 @@
 // Создаем новый класс :
 class Car {
 // данные (свойства):
-    var $model;
-    var $color;
-    var $type;
+    public $model;
+    public $color;
+    public $type;
     // методы:
     function Car($model, $color, $type) {
         echo $this->model = $model.' - ';
@@ -19,8 +19,8 @@ $honda = new Car('Civic', 'green', 'hatchback');
 
 class Tv {
 // данные (свойства):
-    var $brand;
-    var $size;
+    public $brand;
+    public $size;
     // методы:
     function Getbrand() {
 		echo $this->brand.'<br>';
@@ -39,9 +39,9 @@ $sony->Setbrand ('SONY');
 
 class Pen {
 // данные (свойства):
-    var $ink_color;
-    var $material;
-    var $brand;
+    public $ink_color;
+    public $material;
+    public $brand;
     // методы:
     function Pen($brand, $ink_color, $material) {
         echo $this->type = $brand.' - ';
@@ -56,8 +56,8 @@ $parker_pen = new Pen('Parker', 'blue', 'metal');
 
 class Duck {
 // данные (свойства):
-    var $name;
-    var $sex;
+    public $name;
+    public $sex;
     // методы:
     function Duck($name, $sex) {
                 
@@ -72,9 +72,9 @@ $duck2 = new Duck('Duffy', 'she is');
 
 class Product {
 // данные (свойства):
-    var $category;
-    var $price;
-    var $availability;
+    public $category;
+    public $price;
+    public $availability;
     // методы:
     function Product($category, $price,$availability) {
                 
